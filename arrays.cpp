@@ -34,7 +34,7 @@ void sorted_functions(int a[], int b[], int M) {
         tot_index++;
     }
 	//Copy elements from temporary array into b
-    for(int i = 0; i < 2*M+1; i++) {
+    for(int i = 0; i < 2*M; i++) {
         b[i] = temp[i];
     }
 }
